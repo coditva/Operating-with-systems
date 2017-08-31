@@ -1,6 +1,6 @@
 
 # Add all targets here
-BINARIES=simple_fork child_status
+BINARIES=simple_fork child_status child_exec
 
 all: $(BINARIES)
 
@@ -15,6 +15,12 @@ child_status: child_status.o
 	gcc -o child_status child_status.o
 child_status.o: child_status.c
 	gcc child_status.c -c
+
+
+child_exec: child_exec.o
+	gcc -o child_exec child_exec.o
+child_exec.o: child_exec.c
+	gcc child_exec.c -c
 
 
 .PHONY: clean
