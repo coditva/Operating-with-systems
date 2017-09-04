@@ -10,6 +10,7 @@ course in Bits, Goa.
 - Fork this shit: examples of forking
 - Kernel Modules: kernel modules
 - Process communication: process communication
+- Zombie: make a zombie
 
 ## Author
 Utkarsh Maheshwari
